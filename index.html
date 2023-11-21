@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Űrlap 3</title>
+
+    <style>
+        body {
+            margin: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            background-color: #4e7789;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+            padding-bottom: 80px;
+            border-radius: 10px;
+        }
+
+        .green {
+            color: #00bb92;
+            font-weight: bold;
+        }
+
+        ::placeholder {
+            color: #e1e2e3;
+        }
+
+        input {
+            margin: 10px;   
+        }
+
+        input[type=text],[type=email],[type=password],[type=date] {
+            width: 250px;
+            height: 25px;
+            font-size: medium;
+        }
+
+        h1 {
+            text-align: center;
+            color: #676767;
+        }
+
+        button {
+            margin-top: 20px;
+            float: right;
+            background-color: #00bb92;
+            color: white;
+            font-size: medium;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px #e1e2e3;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <form action="">  
+            <header>
+                <h1> Create Account</h1>
+            </header>
+
+            <div>
+                <label for="" class="green">First name*</label>
+                <input type="text" name="nev" id="nev" placeholder="enter your first name">
+                <label for="" class="green">Last name*</label>
+                <input type="text" name="nev" id="nev" placeholder="enter your last name">
+            </div>
+        
+            <div>
+                <label for="nev" class="green">Email*</label>
+                <input type="email" name="nev" id="nev" placeholder="enter your email">
+            </div>
+
+            <div>
+                <label for="nev" class="green">Password*</label>
+                <input type="password" name="nev" id="nev" placeholder="enter your password">
+                <label for="nev" class="green">Confirm Password*</label>
+                <input type="password" name="nev" id="nev" placeholder="enter your password again">
+            </div>
+
+            <div>
+                <label for="" class="green">Gender</label>
+                <br>
+                <input type="radio" name="radio" id="nemradio">
+                <label for="nemradio">Male</label>
+                <input type="radio" name="radio" id="nemradio">
+                <label for="nemradio">Female</label>
+            </div>
+        
+            <div>
+                <label for="" class="green">Hobbies</label>
+                <br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Music</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Sports</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Travel</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Movies</label>
+            </div>
+        
+            <div>
+                <label for="" class="green">Source of Income</label>
+                <input type="number" name="" id="">
+            </div>
+
+            <div>
+                <label for="" class="green">Income</label>
+                <input type="range" name="" id="">
+            </div>
+
+            <div>
+                <label for="" class="green">Upload Profile Picture</label>
+                <input type="file" name="" id="">
+            </div>
+
+            <div>
+                <label for="" class="green">Age</label>
+                <input type="number" name="" id="">
+            </div>
+
+            <div>
+                <label for="" class="green">Bio</label>
+                <br>
+                <textarea name="" id="" cols="80" rows="10"></textarea>
+            </div>
+
+            <footer>
+                <div>
+                    <button>Create</button>
+                </div>
+            </footer>
+        </form>
+    </div>
+    
+</body>
+</html>
